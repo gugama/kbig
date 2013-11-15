@@ -13,7 +13,7 @@ store f into '/temporary/result/test3';
 
 
 
-/*d = foreach c generate flatten(TOKENIZE($0,' ')) as word;
+/*d = foreach c generate flatten(TOKENIZE($0,' ')) as word;¼öÁ¤
 e = group d by word;
 f = foreach e generate COUNT(d), group;
 dump f;*/
